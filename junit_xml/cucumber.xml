@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.195696">
+    <testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="33.195696">
+        <failure message="org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-N8L3VMS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)&#13;&#10;&#9;at stepDefinitions.DealStepDefnition.user_moves_to_new_contact_page(DealStepDefnition.java:84)&#13;&#10;&#9;at ✽.Then user moves to new deal page(src/main/java/Features/deals.feature:12)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters username and password......................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user moves to new deal page............................................failed
+Then user enters deal details...............................................skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N8L3VMS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at stepDefinitions.DealStepDefnition.user_moves_to_new_contact_page(DealStepDefnition.java:84)
+	at ✽.Then user moves to new deal page(src/main/java/Features/deals.feature:12)
+]]></failure>
+    </testcase>
+</testsuite>
